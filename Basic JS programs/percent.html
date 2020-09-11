@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	var s = +prompt("Введите сумму вклада ");
+	var a = +prompt("Введите процент по вкладу ");
+	
+	a = a/100;
+	
+	var result = "Изменение вклада по годам:\n";
+
+	for(var i = 1; i <= 5; i++) {
+		s = s + (s*a);
+		result += i + " год: " + s.toFixed(2) + " рублей\n";
+	}
+	
+	alert(result);
+
+
+
+</script>

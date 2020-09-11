@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	var answer = parseInt(Math.random() * 100);
+	var userAnswer = +prompt("Угадай число от 0 до 100");
+
+
+	for(var tryCount = 1; tryCount <= 7; tryCount++){
+		if(userAnswer == answer){
+			document.write("Поздравляю, вы угадали! ");
+			break;
+		} else if(userAnswer > answer){
+			document.write("Вы ввели слишком большое число");
+		} else if(userAnswer < answer){
+			document.write("Вы ввели слишком маленькое число");
+		}
+		document.write("У вас осталось" + " " + (7 - tryCount) + " " + "Попыток <br>");
+
+		userAnswer = +prompt("Попробуйте еще раз. Введите число от 1 до 100");
+
+	}
+
+	document.write("Правильный ответ: " + answer);
+	
+
+</script>
