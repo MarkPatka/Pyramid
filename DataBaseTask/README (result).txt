@@ -53,9 +53,9 @@ Records: 2  Duplicates: 0  Warnings: 0
 
 mysql>
 mysql> INSERT INTO guests (guest_name, guest_email, guest_DoB, guest_in, guest_out) VALUES
-    -> ('Поставьте Марку Патка', 'mark.kaz.1998@gmail.com', '1998.12.27', '2020.01.12', '2020.01.30'),
-    -> ('Пожалуйста Хотя Бы', 'sem.sech@pupa.com', '1998.12.27', '2020.01.12', '2020.01.30'),
-    -> ('Тройку Очень Прошувич', 'cha.cha@chto.ru', '1998.12.27', '2020.01.12', '2020.01.30');
+    -> ('Марк Патка', 'mark.kaz.1998@gmail.com', '1998.12.27', '2020.01.12', '2020.01.30'),
+    -> ('Хотя Бы', 'sem.sech@pupa.com', '1998.12.27', '2020.01.12', '2020.01.30'),
+    -> ('4 Очень Прошувич', 'cha.cha@chto.ru', '1998.12.27', '2020.01.12', '2020.01.30');
 Query OK, 3 rows affected (0.04 sec)
 Records: 3  Duplicates: 0  Warnings: 0
 
